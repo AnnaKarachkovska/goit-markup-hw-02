@@ -141,3 +141,33 @@ footer {
 .footer-list .contacts {
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* Стилі для portfolio.html */
+
+.filter button {
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--main-text-color);
+    background-color: var(--background-color-light);
+}
+
+.filter button:hover,
+.filter button:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+.cards .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.cards .category {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--text-color);
+}
